@@ -4,4 +4,4 @@
   publish = "dist"
 [context.production]
   [context.production.environment]
-    FRONT_API_URL="https://romantic-hugle-ee30ac.netlify.com/.netlify/functions"
+    FRONT_API_URL="/.netlify/functions"

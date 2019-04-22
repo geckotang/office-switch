@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nuxt & npm run lambda",
     "lambda": "node -r dotenv/config ./node_modules/.bin/netlify-lambda serve lambda",
-    "build": "touch .env && netlify-lambda build lambda && nuxt build",
+    "build": "touch .env && netlify-lambda build lambda && nuxt generate",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",

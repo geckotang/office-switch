@@ -71,6 +71,9 @@ typings/
 # Nuxt generate
 dist
 
+# Lambda generate
+functions
+
 # vuepress build output
 .vuepress/dist
 

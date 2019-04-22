@@ -1,7 +1,5 @@
 import pkg from './package'
 
-require('dotenv').config()
-
 export default {
   mode: 'universal',
 
@@ -40,15 +38,8 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/dotenv',
     '@nuxtjs/proxy',
-    '@nuxtjs/axios',
     '@nuxtjs/pwa'
   ],
-  /*
-   ** Axios module configuration
-   */
-  axios: {
-    // See https://github.com/nuxt-community/axios-module#options
-  },
   /*
    ** Proxy module configuration
    */

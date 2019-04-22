@@ -4,4 +4,4 @@
   publish = "dist"
 [context.production]
   [context.production.environment]
-    FRONT_API_URL="/.netlify/functions"
+    FRONT_API_URL="https://quirky-ride-1af1f5.netlify.com/.netlify/functions"
